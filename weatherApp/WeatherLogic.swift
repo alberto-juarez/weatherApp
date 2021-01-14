@@ -26,7 +26,7 @@ public struct Weather {
 
 public final class WeatherService: NSObject{
     private let locationManager = CLLocationManager()
-    private let API_KEY = "118986fcf0ab07664288bd59fadb8a59"
+    private let API_KEY = "XXX"
     private var completitionHandler: ((Weather)-> Void)?
     
     public override init(){
